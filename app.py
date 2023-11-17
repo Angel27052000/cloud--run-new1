@@ -12,7 +12,7 @@ client = bigquery.Client()
 
 # Define your BigQuery dataset and table
 dataset_id = "demodata"  # Replace with your dataset ID
-table_id = "Demotable"      # Replace with your table ID
+table_id = "demo-table"      # Replace with your table ID
 
 @app.route("/", methods=["GET", "POST"])
 def user_details():
